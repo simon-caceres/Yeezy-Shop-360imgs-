@@ -37,7 +37,6 @@
 
   .card-body>img{
       max-width: 18rem;
-      
   }
 
   .row{
@@ -50,6 +49,9 @@
 
   footer{
     height: 5rem;
-    color: azure;
     text-align: center;
+  }
+
+  footer>h2{
+    color: azure;
   }
