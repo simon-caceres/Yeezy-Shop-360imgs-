@@ -1,6 +1,9 @@
 $(document).ready(function() {
   $('.I360').hide();
   $('.carousel').hide();
+  
+  
+  
 })
 
 $('#desert').on('click',()=>{
@@ -102,6 +105,9 @@ function loader(prev, next){
   }
   
 }
+
+
+  
 
 
 

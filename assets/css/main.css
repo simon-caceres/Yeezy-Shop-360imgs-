@@ -23,16 +23,15 @@
   }
 
   .pageHeader{
-    background-image: url('//stockx-assets.imgix.net/Core/browse-header-sneakers.jpg');
     text-align: center;
-    background-repeat: no-repeat;
-    max-width: auto;
-    height: 40vh;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .pageHeader>img{
+    max-width: 100%;
   }
 
   .card-body>img{
@@ -55,3 +54,95 @@
   footer>h2{
     color: azure;
   }
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.5px){
+  .pageHeader{
+    display: none;
+    height: none;
+  }
+  .card-body>img{
+    max-width: 14.3rem;
+}
+.row{
+  margin: 1rem
+}
+.card-header{
+  font-size: medium;
+}
+#canvas{
+  width: 320px;
+  height: 290px;
+}
+#Slider {
+  width: 320px;
+}
+.I360{
+  height: 50vh;
+}
+.w-10{
+  width: 280px;
+  border-radius: 50vh;
+  height: 200px;
+}
+footer{
+  margin-top: 35px;
+  height: 100px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98){ 
+      .pageHeader{
+        display: none;
+        height: none;
+      }
+      .card-body>img{
+        max-width: 14.3rem;
+    }
+    .row{
+      margin: 3rem
+    }
+    .card-header{
+      font-size: medium;
+    }
+    #canvas{
+      width: 320px;
+      height: 290px;
+    }
+    #Slider {
+      width: 320px;
+    }
+    .I360{
+      height: 50vh;
+    }
+    .w-10{
+      width: 280px;
+      border-radius: 50vh;
+      height: 200px;
+    }
+    footer{
+      margin-top: 35px;
+      height: 100px;
+    }
+   }
+
+/*/ Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .pageHeader{
+    height: 15vh;
+  }
+  .row{
+    margin: 2rem
+  }
+  .card-header{
+    font-size: large;
+  }
+}
+
+/*/ Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*/ Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
